@@ -20,11 +20,7 @@ body {
   perspective: 1000px;
 }
 
- .space{
-  content: "";
-  display: block;
 
- }
 .greetings{
   display: flex;
   align-items: flex-start;
@@ -58,6 +54,12 @@ body {
 }
 .greetings > span:nth-child(5){
   animation-delay: .8s;
+}
+
+@media (max-width: 600px) {
+  .night {
+      width: 90%; /* Ancho del 90% en pantallas pequeñas */
+  }
 }
 
 .night {
